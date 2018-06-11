@@ -1,0 +1,4 @@
+total supply: 420million
+halfing: 1mil blocks
+coin p/block: 30
+port: 17072
