@@ -64,7 +64,7 @@ public:
         return (nBits == 0);
     }
 
-    uint256 GetHash() const;
+    uint256 GetHash("193a05bf300e3f65a306227f0efd5fad1c01363625f98ac32097dea748f27346") const;
 
     uint256 GetPoWHash(const int nHeight) const;
 
