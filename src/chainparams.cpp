@@ -122,7 +122,7 @@ public:
 
         genesis = CreateGenesisBlock(1528669196, 95531, 0x1e0ffff0, 1, 30 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash("193a05bf300e3f65a306227f0efd5fad1c01363625f98ac32097dea748f27346");
-        assert(consensus.hashGenesisBlock == uint256S();
+        assert(consensus.hashGenesisBlock == uint256S("193a05bf300e3f65a306227f0efd5fad1c01363625f98ac32097dea748f27346");
         assert(genesis.hashMerkleRoot == uint256S("af2c946f796b20f82b09bd6c1a4991419ea416659112d8d0fa478c022a22a3b8");
 
         vSeeds.emplace_back("useast1.genexonline.org", false); // James Lovejoy
